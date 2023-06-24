@@ -61,6 +61,12 @@ header{
         flex-direction: column-reverse;
     }
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* header style end */
 
 /* Blog Section Style Here */
